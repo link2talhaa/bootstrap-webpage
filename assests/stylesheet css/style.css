@@ -1,0 +1,84 @@
+.navbar {
+    position: absolute;
+    top: 40px;         /* Pushes navbar 40px from the top */
+    width: 100%;
+    z-index: 1000;
+    background: rgba(255,255,255,0.95); /* Optional: semi-transparent */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    backdrop-filter: blur(2px);
+}
+.home-page{
+    position: relative;
+}
+.home-image img {
+    
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    display: block;
+}
+.home-txt{
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+}
+/* .home-txt h1{
+    right: 20%;
+} */
+.home-btn {
+    position: absolute;
+    top: 65%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    
+
+}
+.no-radius{
+    border-radius: 0 !important;
+}
+.card{
+    
+    border: none;
+}
+.author-img {
+    position: absolute;
+    bottom: -40px; 
+    left: 50%;
+    transform: translateX(-50%);
+    max-height: 300px; 
+    z-index: 2;
+}
+.custom-line{
+    line-height: 2.5;
+}
+.custom-placeholder::placeholder {
+    color: #5b9be6; 
+    font-weight: bold;
+}
+.align{
+    text-align: left;
+    color:grey ;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+.social-icon {
+  width: 70px;
+  height: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  border-radius: 0;
+  margin: 0 2px;
+  text-decoration: none;
+}
+
+.bg-facebook { background: #3b5998; }
+.bg-twitter { background: #55acee; }
+.bg-google { background: #dd4b39; }
+.bg-linkedin { background: #0077b5; }
